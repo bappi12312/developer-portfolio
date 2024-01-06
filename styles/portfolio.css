@@ -24,8 +24,9 @@ body {
 nav {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  padding: 0px 200px;
+  justify-content: space-around;
+  
+ 
 }
 
 .nav-titile {
@@ -70,8 +71,12 @@ nav li button {
 
 
 .banner {
-  width: 585px;
-  padding-left: 200px;
+  width: 100%;
+  
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
 }
 
 .banner-text {
@@ -85,6 +90,7 @@ nav li button {
 
 .banner-description {
   color: rgb(124, 107, 107);
+
 }
 
 .contact {
@@ -107,5 +113,12 @@ nav li button {
 
 .banner-heading {
   margin-bottom: 30px;
+  flex: 1;
+  
 }
+
+.banner .hardy {
+  width: 400px;
+}
+
 
