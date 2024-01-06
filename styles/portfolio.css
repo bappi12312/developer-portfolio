@@ -4,7 +4,7 @@
 
 body {
   font-family: "Open Sans", sans-serif;
-
+  background-color: rgb(231, 219, 204);
   margin: 0;
 }
 
@@ -63,7 +63,9 @@ nav li button {
 
 .header {
   background-color: rgba(50, 168, 82, 0.308);
-  
+  background-image: url('../images/header_bg.png');
+  background-repeat: no-repeat;
+  background-position: bottom right;
 }
 
 /* banner related styles */
@@ -71,12 +73,10 @@ nav li button {
 
 
 .banner {
-  width: 100%;
-  
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   align-items: center;
-  align-content: center;
+  align-content: center; 
 }
 
 .banner-text {
@@ -113,12 +113,47 @@ nav li button {
 
 .banner-heading {
   margin-bottom: 30px;
-  flex: 1;
+  max-width: 500px;
   
 }
 
 .banner .hardy {
-  width: 400px;
+  max-width: 350px;
+  position: relative;
+  bottom: 0;
+  
 }
+
+/* main contents start */
+
+
+/* about section styles */
+
+.section1-container{
+  text-align: center;
+}
+
+.section1-container2 .details {
+  display: flex;
+  justify-content: space-around;
+}
+
+.first-section {
+  max-width: 1000px;
+  margin: 40px auto;
+  background-color: rgba(127, 255, 212, 0.411) ;
+  padding: 80px;
+  border-radius: 5px;
+  border: none;
+}
+
+/* section 2 styles */
+
+.section2-container {
+  text-align: center;
+}
+
+
+
 
 
